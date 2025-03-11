@@ -12,5 +12,6 @@ for i in range(10):
     # Subtract the remaining numbers
     else:
         total -= number
-        
+
 #Print the result
+print(f"Result: {total}.")
