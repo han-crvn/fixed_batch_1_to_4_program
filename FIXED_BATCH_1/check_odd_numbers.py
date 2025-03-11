@@ -11,5 +11,5 @@ for i in range(10):
     if number % 2 != 0:
          list_of_odds.append(number)
 
-#Print the list of odd numbers
+#Print the number of odd numbers in the list
 print(f"The number of odd numbers is {len(list_of_odds)}.")
