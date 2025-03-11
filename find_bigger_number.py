@@ -9,3 +9,5 @@ if number_1 > number_2:
     print(F"Bigger number: {number_1}")
 elif number_2 > number_1:
     print(F"Bigger number: {number_1}")
+else:
+    print("They are both equal")
