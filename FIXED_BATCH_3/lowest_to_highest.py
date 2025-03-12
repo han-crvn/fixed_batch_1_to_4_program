@@ -1,9 +1,18 @@
 #Create empty list
+numbers_list = []
 
 #Use loop and try-except to allow users to input number and stop if the input is invalid
-
-#Update the list
+while True:
+    try:
+        number = int(input("Enter the number: "))
+        
+        #Update the list
+        numbers_list.append(number)
 
 #Arrange the list from lowest to highest
 
 #Print the result
+
+    except ValueError:
+        print("Invalid")
+        break
