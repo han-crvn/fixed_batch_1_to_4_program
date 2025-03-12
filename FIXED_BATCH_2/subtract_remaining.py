@@ -1,11 +1,11 @@
-#Initialize total to 0
+# Initialize total to 0
 total = 0
 
-#Use loop to input 10 numbers
+# Use loop to input 10 numbers
 for i in range(10):
     number = float(input(f"[{i + 1}] Enter the number: "))
 
-    #Add the first number
+    # Add the first number
     if i == 0:
         total += number
 
@@ -13,5 +13,5 @@ for i in range(10):
     else:
         total -= number
 
-#Print the result
+# Print the result
 print(f"Result: {total}.")
