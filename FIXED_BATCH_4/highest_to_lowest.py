@@ -8,14 +8,14 @@ while True:
 
         #Update the list
         numbers_list.append(number)
-
-        #Arrange the list from highest to lowest
-        arranged_number = sorted(numbers_list)
-        arranged_number.reverse()
-        
-        #Print the result
-        print(f"Result: {arranged_number}")
     
     except ValueError:
         print("Invalid")
         break
+
+#Arrange the list from highest to lowest
+arranged_number = sorted(numbers_list)
+arranged_number.reverse()
+
+#Print the result
+print(f"Result: {arranged_number}")
