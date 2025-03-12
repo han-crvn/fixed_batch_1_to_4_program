@@ -6,11 +6,15 @@ while True:
     try:
         number = int(input("Enter the number: "))
 
-#Update the list
+        #Update the list
+        numbers_list.append(number)
 
-#Arrange from highest to lowest
-
-#Print the result
+        #Arrange the list from highest to lowest
+        arranged_number = sorted(numbers_list)
+        arranged_number.reverse()
+        
+        #Print the result
+        print(f"Result: {arranged_number}")
     
     except ValueError:
         print("Invalid")
