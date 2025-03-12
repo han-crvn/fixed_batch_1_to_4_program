@@ -9,8 +9,11 @@ while True:
         #Update the list
         numbers_list.append(number)
 
-#Check which is the smallest number and print it
-    
+        #Check which is the smallest number and print it
+        min_number = min(numbers_list)
+        
+        print(f"Result: {min_number}")
+
     except ValueError:
         print("Invalid")
         break
