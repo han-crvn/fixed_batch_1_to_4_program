@@ -1,7 +1,9 @@
-#Create empty list
+#Create an empty list
 
-#Create loop to ask user for 10 numbers
+#Use for loop to allow user to input 10 numbers
 
-#For every number, check if it is still not in the list and add it
+#Add the numbers in the list
 
-#Print the non_duplicate numberss
+#Use loop to check the occurences of numbers
+
+#Print the result
