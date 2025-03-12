@@ -5,10 +5,11 @@ number_list = []
 for i in range(10):
     number = int(input(f"[{i + 1}] Enter the number: "))
 
-#Check if the number are not in the list and add them
+    #Check if the number are not in the list and add them
+    if number not in number_list:
+        number_list.append(number)
 
 #Print result
-
-
+print(f"Result: {number_list}")
 
   
