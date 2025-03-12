@@ -5,11 +5,15 @@ numbers_list = []
 while True:
     try:
         number = int(input("Enter the number: "))
-#Update the list
-
-#Check which is the highest number
-
-#Print the result
+    
+        #Update the list
+        numbers_list.append(number)
+    
+        #Check which is the highest number
+        max_number = max(numbers_list)
+        
+        #Print the result
+        print(f"Result: {max_number}")
 
     except ValueError:
         print("Invalid")
