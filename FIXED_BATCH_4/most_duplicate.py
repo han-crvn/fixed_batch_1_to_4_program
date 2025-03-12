@@ -6,7 +6,7 @@ max_count = 0
 #Use loop and try-except to allow users to input number and stop if the input is invalid
 while True:
     try:
-        number = int(input("Enter the number: "))
+        number = float(input("Enter the number: "))
 
         #Update the list
         numbers_list.append(number)
@@ -25,4 +25,4 @@ for number in numbers_list:
             most_frequent.append(number)
 
 #Print the result
-print(f"Results: {most_frequent} (occurs: {max_count}")
+print(f"Results: {most_frequent} (occurs: {max_count})")
