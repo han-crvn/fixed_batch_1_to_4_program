@@ -1,8 +1,8 @@
-#Initialize count to 0 and create a list
+# Initialize count to 0 and create a list
 count = 0
 num_list = []
 
-#Create a while loop
+# Create a while loop
 while count < 101:
     
     # Validate if number is odd and add it to the list
