@@ -6,11 +6,14 @@ while True:
     try:
         number = int(input("Enter the number: "))
 
-#Add the number to the list
+        #Add the number to the list
+        numbers_list.append(number)
+        
+        #Calculate the average of the numbers in the list
+        average_num = sum(numbers_list) / len(numbers_list)
 
-#Calculate the average of the numbers in the list
-
-#Print the result
+        #Print the result
+        print(f"Result: {average_num}")
 
     except ValueError:
         print("Invalid")
