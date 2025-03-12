@@ -8,13 +8,13 @@ while True:
 
         #Add the number to the list
         numbers_list.append(number)
-        
-        #Calculate the average of the numbers in the list
-        average_num = sum(numbers_list) / len(numbers_list)
-
-        #Print the result
-        print(f"Result: {average_num}")
 
     except ValueError:
         print("Invalid")
         break
+
+#Calculate the average of the numbers in the list
+average_num = sum(numbers_list) / len(numbers_list)
+
+#Print the result
+print(f"Result: {average_num}")
