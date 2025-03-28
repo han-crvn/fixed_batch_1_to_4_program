@@ -1,28 +1,24 @@
 # Create a lists and variable
-numbers_list = []
-most_number = []
-max_count = 0
+nums = {}
 
 # Use loop and try-except to allow users to input number and stop if the input is invalid
 while True:
     try:
-        number = float(input("Enter the number: "))
+        number = int(input("Enter a number: "))
 
-        # Update the list
-        numbers_list.append(number)
+        if nums.get(number):
+             nums[number] += 1
 
+        else:
+             nums[number] = 1
+        
     except ValueError:
-        print("Invalid")
-        break
+         break
 
 # Check which number has the most occurences
-for number in numbers_list:
-        count = numbers_list.count(number)
-        if count > max_count:
-            max_count = count
-            most_frequent = [number]
-        elif count == max_count and number not in most_frequent:
-            most_frequent.append(number)
+biggest = max(nums.values())
 
 # Print the result
-print(f"Results: {most_frequent} (occurs: {max_count})")
+for num, count in nums.items():
+    if count == biggest:
+        print(num)
